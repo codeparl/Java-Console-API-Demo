@@ -5,10 +5,10 @@ import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
-public class Demo {
+public class MainApp {
 	public static void main(String... args) {
-		Demo demo = new Demo();
-		demo.createUI();
+		MainApp demo = new MainApp();
+		MainApp.createUI();
 	}
 	
 	private void performDemo(ConsoleAPI consoleAPI) {
